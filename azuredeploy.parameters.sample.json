@@ -3,7 +3,7 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"_artifactsLocation": {
-			"value": "https://raw.githubusercontent.com/haroldwongms/openshift-containerplatform/master"
+			"value": "https://raw.githubusercontent.com/Qwiatu-LinuxPolska/openshift-containerplatform/master"
 		},
 		"customVhdOrGallery": {
 			"value": "gallery"
@@ -15,25 +15,25 @@
 			"value": "images/customosdisk.vhd"
 		},
 		"masterVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_DS1_v2"
 		},
 		"infraVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_DS1_v2"
 		},
 		"nodeVmSize": {
-			"value": "Standard_DS2_v2"
+			"value": "Standard_DS1_v2"
 		},
 		"openshiftClusterPrefix": {
 			"value": "ocpcluster"
 		},
 		"masterInstanceCount": {
-			"value": 3
+			"value": 1
 		},
 		"infraInstanceCount": {
-			"value": 2
+			"value": 1
 		},
 		"nodeInstanceCount": {
-			"value": 1
+			"value": 2
 		},
 		"dataDiskSize": {
 			"value": 128
