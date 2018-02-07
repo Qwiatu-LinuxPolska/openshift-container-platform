@@ -1,8 +1,8 @@
 # OpenShift Container Platform Deployment Template
 
-Bookmark [aka.ms/OpenShift](http://aka.ms/OpenShift) for future reference.
 
-**For OpenShift Origin refer to https://github.com/Microsoft/openshift-origin**
+
+
 
 ## OpenShift Container Platform 3.6 with Username / Password authentication for OpenShift
 
@@ -138,8 +138,8 @@ You will also need to get the Pool ID that contains your entitlements for OpenSh
 ## Deploy Template
 
 Deploy to Azure using Azure Portal: 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdwaiba%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
-<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fdwaiba%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FQwiatu-LinuxPolska%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FQwiatu-LinuxPolska%2Fopenshift-container-platform%2Fmaster%2Fazuredeploy.json" target="_blank">
     <img src="http://armviz.io/visualizebutton.png"/>
 </a><br/>
 
