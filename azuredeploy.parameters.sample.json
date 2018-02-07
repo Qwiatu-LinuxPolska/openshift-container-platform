@@ -15,13 +15,13 @@
 			"value": "images/customosdisk.vhd"
 		},
 		"masterVmSize": {
-			"value": "Standard_DS1_v2"
+			"value": "Standard_DS2_v2"
 		},
 		"infraVmSize": {
-			"value": "Standard_DS1_v2"
+			"value": "Standard_DS2_v2"
 		},
 		"nodeVmSize": {
-			"value": "Standard_DS1_v2"
+			"value": "Standard_DS2_v2"
 		},
 		"openshiftClusterPrefix": {
 			"value": "ocpcluster"
