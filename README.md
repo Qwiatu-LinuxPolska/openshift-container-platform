@@ -1,10 +1,11 @@
 # OpenShift Container Platform Deployment Template
 
 
-## Prerequisites
+## General prerequisites
 
+* 
 * HW: Hardware with enabled Intel VT-x or AMD-V technology
-* OS: Windows 7 /Windows 10 / Linux / MacOS 
+* OS: Windows 7 /Windows 10 / Linux / MacOS **with admin/root permissions** 
     * For Windows 7 users - use [Docker Toolbox for Windows 7](https://docs.docker.com/toolbox/toolbox_install_windows/)
     * Alternative: [Deploy Docker on Ubuntu VM in Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/CanonicalandMSOpenTech.DockerOnUbuntuServer1404LTS), detailed instructions [here](https://blogs.msdn.microsoft.com/opensourcemsft/2015/09/26/step-by-step-set-up-docker-on-azure-connect-to-nginx-container-from-windows/)
 * Docker on local OS: https://www.docker.com/community-edition#/download
