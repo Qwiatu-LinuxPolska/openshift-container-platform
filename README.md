@@ -1,6 +1,23 @@
 # OpenShift Container Platform Deployment Template
 
 
+## Prerequisites:
+* HW: Hardware with enabled Intel VT-x or AMD-V technology
+* OS: Windows 7 /Windows 10 / Linux / MacOS 
+    * For Windows 7 users - use [Docker Toolbox for Windows 7](https://docs.docker.com/toolbox/toolbox_install_windows/)
+    * Alternative: [Deploy Docker on Ubuntu VM in Azure](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/CanonicalandMSOpenTech.DockerOnUbuntuServer1404LTS), detailed instructions [here](https://blogs.msdn.microsoft.com/opensourcemsft/2015/09/26/step-by-step-set-up-docker-on-azure-connect-to-nginx-container-from-windows/)
+* Docker on local OS: https://www.docker.com/community-edition#/download
+* Azure CLI 2.0: https://azure.github.io/projects/clis/
+* Optional: Visual Studio Code https://code.visualstudio.com + extensions:
+    * YAML https://marketplace.visualstudio.com/items?itemName=adamvoss.yaml
+    * Docker https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
+    * Python https://marketplace.visualstudio.com/items?itemName=ms-python.python
+    * C# https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp
+    * Azure Resource Manager Tools https://marketplace.visualstudio.com/items?itemName=msazurermtools.azurerm-vscode-tools
+    * Visual Studio Team Services https://marketplace.visualstudio.com/items?itemName=ms-vsts.team
+    * Azure Account https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account
+    * Azure CLI Tools https://marketplace.visualstudio.com/items?itemName=ms-vscode.azurecli
+    * NuGet Package Manager https://marketplace.visualstudio.com/items?itemName=jmrog.vscode-nuget-package-manager
 
 
 
