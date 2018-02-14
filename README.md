@@ -1,7 +1,8 @@
 # OpenShift Container Platform Deployment Template
 
 
-## Prerequisites:
+## Prerequisites
+
 * HW: Hardware with enabled Intel VT-x or AMD-V technology
 * OS: Windows 7 /Windows 10 / Linux / MacOS 
     * For Windows 7 users - use [Docker Toolbox for Windows 7](https://docs.docker.com/toolbox/toolbox_install_windows/)
