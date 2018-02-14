@@ -235,4 +235,4 @@ You can configure additional settings per the official (<a href="https://docs.op
 
 
 ### Additional info
-Source: Most content has been downloaded from (<a href="https://github.com/Microsoft/openshift-container-platform" target="_blank">here.</a>)
+Most informations have been downloaded from <a href="https://github.com/Microsoft/openshift-container-platform" target="_blank">here.</a>
