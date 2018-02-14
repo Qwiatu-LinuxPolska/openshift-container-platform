@@ -232,3 +232,7 @@ Use user 'root' and the same password as you assigned to your OpenShift admin to
 ### Additional OpenShift Configuration Options
  
 You can configure additional settings per the official (<a href="https://docs.openshift.com/container-platform/3.6/welcome/index.html" target="_blank">OpenShift Enterprise Documentation</a>).
+
+
+### Additional info
+Source: Most content has been downloaded from (<a href="https://github.com/Microsoft/openshift-container-platform" target="_blank">here.</a>)
