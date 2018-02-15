@@ -244,7 +244,7 @@ Import private ssh key to  KeyVault
 Add and assign to ocplinuxpolska group "service principal"
 
 * $ az group create --name ocplinuxpolska --location southeastasia
-* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/**<twoje><unikalne><subscription><id>**/resourceGroups/**ocplinuxpolska**
+* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/<twoje>-<unikalne>-<subscription>-<id>/resourceGroups/**ocplinuxpolska**
 
 #### Template
 Select existing ocplinux resource group
