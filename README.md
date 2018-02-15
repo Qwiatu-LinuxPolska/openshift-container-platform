@@ -240,22 +240,24 @@ Import private ssh key to  KeyVault
 * $ az group create -n kluczessh -l southeastasia
 * $ az keyvault create -n host-linux-local -g kluczessh -l southeastasia --enabled-for-template-deployment true
 * $ az keyvault secret set --vault-name host-linux-local -n nazwaUzytkownika --file ~/.ssh/id_rsa_azure
+
 Add and assign to ocplinuxpolska group "service principal"
+
 * $ az group create --name ocplinuxpolska --location southeastasia
-* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/**<twoje>-<unikalne>-<subscription>-<id>**/resourceGroups/**ocplinuxpolska**
+* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/**<twoje><unikalne><subscription><id>**/resourceGroups/**ocplinuxpolska**
 
 #### Template
 Select existing ocplinux resource group
 
-Rhsm username or org Id: username@linuxpolska.pl
-Rhsm passowrd Or Activation Key: SecretPass
-Rhsm Pool Id: 665446787ad667f8g0009jj
-Ssh Public Key: ssh-rsa AAAA…..BBB
-Key Vault Resource Group: kluczessh
-Key Vault Name: host-linux-local
-Key Vault Secret: nazwaUzytkownika
-Aad Client Id: deployment
-Aad Client Secret: Welcome201801
+* Rhsm username or org Id: username@linuxpolska.pl
+* Rhsm passowrd Or Activation Key: SecretPass
+* Rhsm Pool Id: 665446787ad667f8g0009jj
+* Ssh Public Key: ssh-rsa AAAA…..BBB
+* Key Vault Resource Group: kluczessh
+* Key Vault Name: host-linux-local
+* Key Vault Secret: nazwaUzytkownika
+* Aad Client Id: deployment
+* Aad Client Secret: Welcome201801
 
 
 
