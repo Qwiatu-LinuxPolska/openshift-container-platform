@@ -238,8 +238,8 @@ You can configure additional settings per the official (<a href="https://docs.op
 #### Azure CLI
 Import private ssh key to  KeyVault
 * $ az group create -n kluczessh -l southeastasia
-* $ az keyvault create -n host-linux-local -g kluczessh -l southeastasia --enabled-for-template-deployment true
-* $ az keyvault secret set --vault-name host-linux-local -n nazwaUzytkownika --file ~/.ssh/id_rsa_azure
+* $ az keyvault create -n linuxpolska<numer> -g kluczessh -l southeastasia --enabled-for-template-deployment true
+* $ az keyvault secret set --vault-name linuxpolska<numer> -n uzytkownik --file ~/.ssh/id_rsa_azure
 
 Add and assign to ocplinuxpolska group "service principal"
 
