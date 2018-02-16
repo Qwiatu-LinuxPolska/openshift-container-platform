@@ -249,14 +249,14 @@ Add and assign to ocplinuxpolska group "service principal"
 
 * $ az group create --name ocplinuxpolska --location eastus
 * $ az account list --output table
-* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/**twoje-unikalne-subscription-id**/resourceGroups/**ocplinuxpolska**
-
+* $ az ad sp create-for-rbac -n deployment -p Welcome201802 --role contributor --scopes /subscriptions/**twoje-unikalne-subscription-id**/resourceGroups/ocplinuxpolska
+* copy output 
 #### Template
 
 Select existing ocplinuxpolska resource group
 
 * $ cat ~/.ssh/id_rsa.pub
-
+* openshift password: Welcome201802 
 * Rhsm username or org Id: username@linuxpolska.pl
 * Rhsm passowrd Or Activation Key: SecretPass
 * Rhsm Pool Id: 665446787ad667f8g0009jj
@@ -265,7 +265,7 @@ Select existing ocplinuxpolska resource group
 * Key Vault Name: linuxpolska**ID**
 * Key Vault Secret: uzytkownik
 * Aad Client Id: deployment
-* Aad Client Secret: Welcome201801
+* Aad Client Secret: Welcome201802
 
 
 
