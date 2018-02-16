@@ -235,6 +235,10 @@ You can configure additional settings per the official (<a href="https://docs.op
 
 ### Quick deployment in few steps
 
+#### Cloud Shell
+
+* $ ssh-keygen -t rsa
+
 #### Azure CLI
 Import private ssh key to  KeyVault
 * $ az group create -n kluczessh -l eastus 
@@ -247,7 +251,10 @@ Add and assign to ocplinuxpolska group "service principal"
 * $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/**twoje-unikalne-subscription-id**/resourceGroups/**ocplinuxpolska**
 
 #### Template
-Select existing ocplinux resource group
+
+Select existing ocplinuxpolska resource group
+
+* $ cat ~/.ssh/id_rsa.pub
 
 * Rhsm username or org Id: username@linuxpolska.pl
 * Rhsm passowrd Or Activation Key: SecretPass
