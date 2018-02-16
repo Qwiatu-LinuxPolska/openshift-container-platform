@@ -238,13 +238,13 @@ You can configure additional settings per the official (<a href="https://docs.op
 #### Azure CLI
 Import private ssh key to  KeyVault
 * $ az group create -n kluczessh -l eastus 
-* $ az keyvault create -n linuxpolska<numer> -g kluczessh -l eastus --enabled-for-template-deployment true
-* $ az keyvault secret set --vault-name linuxpolska<numer> -n uzytkownik --file ~/.ssh/id_rsa
+* $ az keyvault create -n linuxpolska**ID** -g kluczessh -l eastus --enabled-for-template-deployment true
+* $ az keyvault secret set --vault-name linuxpolska**ID** -n uzytkownik --file ~/.ssh/id_rsa
 
 Add and assign to ocplinuxpolska group "service principal"
 
 * $ az group create --name ocplinuxpolska --location eastus
-* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/<twoje>-<unikalne>-<subscription>-<id>/resourceGroups/**ocplinuxpolska**
+* $ az ad sp create-for-rbac -n deployment -p Welcome201801 --role contributor --scopes /subscriptions/**twoje-unikalne-subscription-id**/resourceGroups/**ocplinuxpolska**
 
 #### Template
 Select existing ocplinux resource group
@@ -254,7 +254,7 @@ Select existing ocplinux resource group
 * Rhsm Pool Id: 665446787ad667f8g0009jj
 * Ssh Public Key: ssh-rsa AAAA…..BBB
 * Key Vault Resource Group: kluczessh
-* Key Vault Name: linuxpolska<numer>
+* Key Vault Name: linuxpolska**ID**
 * Key Vault Secret: uzytkownik
 * Aad Client Id: deployment
 * Aad Client Secret: Welcome201801
